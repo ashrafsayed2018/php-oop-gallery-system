@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+.top-header {
+    height: 400px;
+    background-image: url('../images/degital.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: -18px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.service-card{
+    box-shadow: 3px 3px 3px rgba(128, 123, 123, 0.2);
+    text-align: right;
+    transition-duration: .5S;
+}
+.service-card:hover{
+    box-shadow: 6px 6px 6px rgba(128, 123, 123, 0.2);
+}
+.service-card .title{
+    font-size: 1.2em;
+    padding: 8px 15px ;
+}
+.service-card .description{
+    font-size: 1em;
+    padding: 25px 15px;
+}
+
+footer {
+    background: #303952!important;
+    margin: 0!important;
+    padding: 2.5rem 0
+}
+footer .row{
+    margin-right: 0!important
+}
+footer ul, footer h3 {
+    color: #fff;
+    text-align: center;
+}
+footer ul li {
+    display: inline;
+    margin: 2rem;
+}
+footer .services {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+footer .services li {
+    display: inline-block;
+    width: 36%;
+    margin:.5em 0; 
+}
+
+.wp-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    color: #fff;
+    margin-right: 5px;
+  }
+  .fa-instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  }
+  .fa-facebook-f {
+    background: #3B5998;
+  }
+  .fa-whatsapp,  .fa-phone  {
+     width: 50px;
+     height: 50px;
+     line-height: 50px;
+     background-color: #25d366;
+     color: #FFF;
+     border-radius: 50%;
+     text-align: center;
+     font-size: 30px;
+     box-shadow: 2px 2px 3px #999;
+     z-index: 100;
+    }
+
+    .media {
+        padding: 1em;
+        text-align: right;
+        border: 1px solid #94a0c0;
+    }
+    .media:last-of-type{
+        margin-bottom: 2em;
+    }
+    .media .media-heading small {
+        display: block;
+        color: #303952;
+        font-weight: bolder;
+        margin: 1em 0;
+    }
+    .well {
+    background-color: #fff!important;
+    box-shadow: 2px 2px 20px 0px #303952 !important;
+    overflow: hidden;
+    }
+    textarea {
+        resize: none;
+    }
+    h2{
+        position: relative;
+        width: 250px;
+        margin: 0 auto;
+    }
+    h2::after{
+        display: block;
+        content: '';
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        right: 0;
+        bottom:-10px;
+        background-color:#303952 ;
+    }
+    .more.btn-info  {
+        display: inline;
+        position: absolute;
+        left: 20px;
+        font-size: 1em;
+        text-decoration: none;
+    }
+
+    .more.btn-info::after {
+        display: inline-block;
+  font-family: 'FontAwesome', sans-serif;
+  font-weight:300;
+  content: "\f105";
+  position: absolute;
+  left:2px;
+  top:3px;
+  margin-right: 3px;
+  color:#fff;
+  font-size:18px;
+  transform: rotate(180deg);
+  vertical-align:middle;
+  transition:color 200ms;
+}
